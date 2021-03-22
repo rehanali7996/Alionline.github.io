@@ -1,2 +1,2 @@
 # portfolio
- Online Portfolio for recruiters 
+ Online Resume or Portfolio for recruiters 
