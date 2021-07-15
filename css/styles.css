@@ -10112,3 +10112,96 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* New card flip style copy */
+
+.post-wrap {
+  min-width: 300px;
+  max-width: 700px;
+  height: 500px;
+  perspective: 1000px;
+  flex: 1;
+  margin: 0 15px 30px;
+}
+.post {
+  position: relative; /* Required to absolutely position the faces */
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.post-front, .post-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding:15px;
+}
+.post-back {
+  transform: rotateY(180deg);
+}
+.post-wrap:hover .post {
+  transform: rotateY(180deg);
+}
+.post-img {
+  background-size: cover;
+  background-position: center;
+  height:100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.post-info {
+  padding: 20px 30px 30px;
+}
+.post-info span {
+  font-size: 0.8rem;
+  color: #808080;
+}
+.post-info h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.post-back {
+  background-color: #ffffff;
+ /* padding: 30px;*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;  To push the read more button to bottom */
+  /* align-items: flex-start;  To position the read more button at the left */
+}
+.post-back h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.post-back p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.post-back a{
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  height:100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

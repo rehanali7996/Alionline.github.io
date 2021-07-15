@@ -12,88 +12,8 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
-        <!--flipbox-->
-        	<style>
-				/*.card {
-				  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-				  max-width: 300px;
-				  margin: auto;
-				  text-align: center;
-				}
-
-				.title {
-				  color: grey;
-				  font-size: 18px;
-				}
-
-				button {
-				  border: none;
-				  outline: 0;
-				  display: inline-block;
-				  padding: 8px;
-				  color: white;
-				  background-color: #000;
-				  text-align: center;
-				  cursor: pointer;
-				  width: 100%;
-				  font-size: 18px;
-				}
-
-				button:hover
-				{
-				  opacity: 0.7;
-				}	
-
-						*/
-
-						.flip-box {
-									  /*margin-left: -35px;*/
-									  padding-left: -30px;
-									  background-color: transparent;
-									  width: 100%;
-									  height: 460px;
-									  border: 1px solid #f1f1f1;
-									  perspective: 1000px;
-									}
-
-					.flip-box-inner {
-									  position: relative;
-									  width: 100%;
-									  height: 100%;
-									  /*text-align: center;*/
-									  transition: transform 0.8s;
-									  transform-style: preserve-3d;
-									}
-
-		.flip-box:hover .flip-box-inner {
-									  transform: rotateY(180deg);
-									}
-
-	.flip-box-front, .flip-box-back {
-									  position: absolute;
-									  width: 100%;
-									  height: 100%;
-									  -webkit-backface-visibility: hidden;
-									  backface-visibility: hidden;
-									}
-
-					.flip-box-front {
-									  background-color: #ffffff;
-									  color: black;
-									}
-
-					.flip-box-back {
-									  color: white;
-									  transform: rotateY(180deg);
-									}
-
-		</style>
-
-
     </head>
 	<body>
-
 	<!-- Skills-->
             <section class="resume-section" id="skills" style="flex-direction: column">
                 <div class="resume-section-content">
@@ -108,94 +28,89 @@
 	                        <li class="list-inline-item"><i class="fab fa-github"></i></a></li>
 	                    </ul>
                 	</div>
+							<!-- Projects -->
+						<hr class="m-0" />
+						<h2 class="mb-5 mt-3">Projects</h2>
+                     
+						<div class="post-wrap"> <!-- The parent element -->
+							<div class="post"> <!-- Child element that flips -->
+								<div class="post-front" style="overflow:auto;">
+									<div class="subheading mb-4" style="text-transform: none;"><a href="www.islcompanion.com" target="blank">www.islcompanion.com</a></div>
 
-                     <hr class="m-0" />
-                     <h2 class="mb-5 mt-3">Projects</h2>
-                     <!-- Projects -->
-                     <div>
-                     		
-						<div class="flip-box">
-						  <div class="flip-box-inner">
-						    <div class="flip-box-front">
-						      <div class="subheading mb-4" style="text-transform: none;"><a href="www.islcompanion.com" target="blank">www.islcompanion.com</a></div>
-
-                     			<h5 class="mb-0" style="color: grey; text-transform: none;">Responsibilities</h5>
-                     			<div>
-     								 <li>Responsible to understand the requirement by  meeting and observing  with the future users of the software. </li>
-     								 <li>Working to make sure the website is responsive on different screen sizes. </li> 
-     								 <li>Breakdown the requirements into functional modules with my seniors .</li>
-     								 <li>Develop the solution by using various web development tools and other technologies</li> 
-                     			</div>
-                     			<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Tools and Technologies</h5>
-                     			<div>
-                     				<li class="list-inline-item">HTML</li>
-                     				<li class="list-inline-item">CSS</li>
-                     				<li class="list-inline-item">JAVASCRIPT</li>
-                     				<li class="list-inline-item">JSON </li>
-                     				<li class="list-inline-item">Bootstrap</li>
-                     			</div>
-                     			<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Description</h5>
-                     			<div>
-                     				<p style="text-align: justify;text-justify: inter-word;">ISARA:- The Project’s aim is the Creation of an Indian Sign Language e-Learning based Dictionary on Domains with relevant signs covering main parts of speech like noun, verb, adjective, etc along with symbols for each most suitable for day to day use and suggested by experts in the field for both desktop, web and mobile versions. The basic need was to develop a corpus of different signs and symbols based on parts of speech from grammar for normal and specially-abled students which will be categorized, easily accessible and standard.</p>
-                     			</div>
-						    </div>
-						    <div class="flip-box-back">
-						     	<a href="https://www.islcompanion.com/index.html" target="blank"><img src="assets/img/screenshot.png" alt="screenshot of live website" title="Click snapshot to visit the website " /></a>
+									<h5 class="mb-0" style="color: grey; text-transform: none;">Responsibilities</h5>
+									<div>
+										 <li>Responsible to understand the requirement by  meeting and observing  with the future users of the software. </li>
+										 <li>Working to make sure the website is responsive on different screen sizes. </li> 
+										 <li>Breakdown the requirements into functional modules with my seniors .</li>
+										 <li>Develop the solution by using various web development tools and other technologies</li> 
+									</div>
+									<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Tools and Technologies</h5>
+									<div>
+										<li class="list-inline-item">HTML</li>
+										<li class="list-inline-item">CSS</li>
+										<li class="list-inline-item">JAVASCRIPT</li>
+										<li class="list-inline-item">JSON </li>
+										<li class="list-inline-item">Bootstrap</li>
+									</div>
+									<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Description</h5>
+									<div>
+										<p style="text-align: justify;text-justify: inter-word;">ISARA:- The Project’s aim is the Creation of an Indian Sign Language e-Learning based Dictionary on Domains with relevant signs covering main parts of speech like noun, verb, adjective, etc along with symbols for each most suitable for day to day use and suggested by experts in the field for both desktop, web and mobile versions. The basic need was to develop a corpus of different signs and symbols based on parts of speech from grammar for normal and specially-abled students which will be categorized, easily accessible and standard.</p>
+									</div>
+								</div>
+								<div class="post-back">
+									<a href="https://www.islcompanion.com/index.html" target="blank"><img class="post-img" src="assets/img/screenshot.png" alt="screenshot of live website" title="Click to visit the website"/></a>							
+								</div>
 							</div>
-						  </div>
-						</div>  			
-                     </div>
+						</div>
 
-                     <div class="mt-5">
 
-                     	<div class="flip-box">
-						  <div class="flip-box-inner">
-						    <div class="flip-box-front">
-						      <div class="subheading mb-4" style="text-transform: none;"><a href="https://autismassessmentform.000webhostapp.com/" target="blank">DISAA</a></div>
-                     			<h5 class="mb-0" style="color: grey; text-transform: none;">Responsibilities</h5>
-                     			<div>
-     								 <li>Responsible to develop a module having a set of questionnaires asked by the psychiatrists  to the autistic suspected child .</li>
-     								 <li>Develop the solution through an HTML  form and saving the values in the database</li> 
-     								 <li>Report generation of the observations taken from the database</li>
-                     			</div>
-                     			<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Tools and Technologies</h5>
-                     			<div>
-                     				<li class="list-inline-item">HTML</li>
-                     				<li class="list-inline-item">CSS</li>
-                     				<li class="list-inline-item">JAVASCRIPT</li>
-                     				<li class="list-inline-item">XAMPP </li>
-                     				<li class="list-inline-item">FPDF</li>
-                     			</div>
-                     			<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Description</h5>
-                     			<div>
-                     				<p style="text-align: justify;text-justify: inter-word;">Indian Scale For Assessment of Autism.The GUI  module I developed was required  to gather the observations taken by the psychiatrists on a scale of 1-5 where 5 being extreme point. At the end , the values  were  submitted  to the the database in phpMyAdmin  and a sum of all values was also generated by adding up all the values  present in the javascript array in the backend.  A report generation module  was also required which I developed using a php based library called FPDF. This report was a basically a customized PDF  page having all the values/observations  of a particular child retrieved from the database</p>
-                     			</div>
-						    </div>
-						    <div class="flip-box-back">
-						     	<a href="https://autismassessmentform.000webhostapp.com/" target="blank"><img src="assets/img/undrcnstr.png" alt="screenshot of live website" id="alternate" /></a>
-						     	<script type="text/javascript">document.getElementById(`alternate`).title=`Click me to visit the web application`;</script>
+						<div class="post-wrap m-3"> <!-- The parent element -->
+							<div class="post"> <!-- Child element that flips -->
+								<div class="post-front" style="overflow:auto;">
+									<div class="subheading mb-4" style="text-transform: none;"><a href="https://autismassessmentform.000webhostapp.com/" target="blank">DISAA</a></div>
+
+									<h5 class="mb-0" style="color: grey; text-transform: none;">Responsibilities</h5>
+									<div>
+										<li>Responsible to develop a module having a set of questionnaires asked by the psychiatrists  to the autistic suspected child .</li>
+										<li>Develop the solution through an HTML  form and saving the values in the database</li> 
+										<li>Report generation of the observations taken from the database</li>
+									</div>
+									<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Tools and Technologies</h5>
+									<div>
+										<li class="list-inline-item">HTML</li>
+										<li class="list-inline-item">CSS</li>
+										<li class="list-inline-item">JAVASCRIPT</li>
+										<li class="list-inline-item">XAMPP </li>
+										<li class="list-inline-item">FPDF</li>
+									</div>
+									<h5 class="mb-0 mt-1" style="color: grey; text-transform: none;">Description</h5>
+									<div>
+										<p style="text-align: justify;text-justify: inter-word;">Indian Scale For Assessment of Autism.The GUI  module I developed was required  to gather the observations taken by the psychiatrists on a scale of 1-5 where 5 being extreme point. At the end , the values  were  submitted  to the the database in phpMyAdmin  and a sum of all values was also generated by adding up all the values  present in the javascript array in the backend.  A report generation module  was also required which I developed using a php based library called FPDF. This report was a basically a customized PDF  page having all the values/observations  of a particular child retrieved from the database</p>
+									</div>
+								</div>
+								<div class="post-back">
+									<a href="https://autismassessmentform.000webhostapp.com/" target="blank"><img class="post-img" src="assets/img/undrcnstr.png" alt="screenshot of live website" title="Click to visit the website" /></a>							
+								</div>
 							</div>
-						  </div>
-						</div> 
-                     </div>
-                     <hr class="m-0 mt-5" />
-                    <div class="subheading mb-2 mt-5">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            User Friendly Design UI 
-                        </li>
-                    </ul>
+						</div>
+
+						<hr class="m-0 mt-5" />
+						<div class="subheading mb-2 mt-5">Workflow</div>
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Mobile-First, Responsive Design
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Cross Browser Testing & Debugging
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								User Friendly Design UI 
+							</li>
+						</ul>					
                 </div>
             </section>
-
 	</body>
 </html>
